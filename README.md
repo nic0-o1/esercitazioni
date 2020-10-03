@@ -2,7 +2,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/prog2-unimi/esercitazioni)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://bit.ly/34lXYkT)
 
 Questo repository contiene il materiale di supporto alle *esercitazioni*
 dell'insegnamento di [Programmazione II](https://prog2.di.unimi.it/) del corso
@@ -13,7 +13,7 @@ degli Studi di Milano](http://www.unimi.it/).
 
 Per svolgere le esercitazioni è sufficiente premere il bottone sottostante
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/prog2-unimi/esercitazioni)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://bit.ly/34lXYkT)
 
 utile ad accedere ad un *workspace* di [Gitpod](https://www.gitpod.io/) che
 consiste di una istanza dell'editor [Visual Studio
