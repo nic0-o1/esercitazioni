@@ -21,15 +21,11 @@ Code](https://code.visualstudio.com/) e
 dell'[OpenJDK](https://openjdk.java.net/) offerti gratuitamente come servizio
 cloud e già configurati per lo svolgimento delle esercitazioni.
 
-### Uso del workspace
+### Il workspace
 
 Il *workspace* creato è persistente e personalizzato, potete trovare maggiori
-informazioni nella [documentazione di Gitpod](https://www.gitpod.io/docs/); chi
-è dotato di un account GitHub può usarlo per accedere anche a Gitpod in modo,
-tra l'altro, da poter tener traccia dei [suoi
-workspace](https://gitpod.io/workspaces/).
-
-Una volta attivato il *workspace* lo studente può (iniziare a) svolgere una
+informazioni nella [documentazione di Gitpod](https://www.gitpod.io/docs/); una
+volta attivato il *workspace* lo studente può (iniziare a) svolgere una
 esercitazione aprendo un terminale nel *workspace* e impartendo il comando
 
     svolgi <NOME_ESERCITAZIONE>/<MATRICOLA>
@@ -40,16 +36,30 @@ dal docente e `<MATRICOLA>` è il numero di matricola dello studente.
 **Attenzione**: *non è possibile usare due workspace diversi per la medesima
 esercitazione*, per cui per proseguire una esercitazione interrotta controllate
 prima nell'[elenco dei suoi workspace](https://gitpod.io/workspaces/) e, nel
-caso, riavviate il *workspace* esistente. Se una volta riavviato il workspace i
-comandi `svolgi`, `verifica` o `consegna` non risultassero disponibili, è
-sufficiente che impartisca il seguente comando (dal terminale):
+caso, riavviate il relativo *workspace* esistente.
 
-    source /workspace/esercitazioni/.bin/setcp
-
-### Il cruscotto
+## Il cruscotto
 
 Le esercitazioni vengono sottoposte a *continuous testing* (basato su [Scythe
 Suite](https://github.com/scythe-suite)); ciascuno studente può tenere traccia
 in tempo reale dei suoi risultati sull'[apposito
 cruscotto](http://reaper.srv.di.unimi.it/st/prog2ese/).
 
+## Sul proprio computer
+
+I **più esperti** possono svolgere le esercitazioni anche usando il proprio
+computer, a tal fine è necessario che esso sia configurato in modo tale che
+siano correttamente installati e configurati i seguenti software:
+
+* bash (versione 5, o superiore),
+* git (versione 2.28, o superiore),
+* Python (versione 3.8, o superiore),
+* Java Development Kit (versione 11, o superiore).
+
+Una volta accertato questo prerequisito, è sufficiente *clonare* questo
+repository, aggiungere la directory `.bin` in esso contenuta al *path* e quindi
+procedere nel modo descritto per l'uso su Gitpod.
+
+Questa modalità è riservata agli studenti già esperti nell'uso degli strumenti
+indicati, ragione per la quale non è previsto alcun supporto ulteriore in caso
+di problemi, o malfunzionamenti.
