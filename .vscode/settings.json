@@ -2,8 +2,10 @@
   "files.exclude": {
     "**/.bin": true,
     "**/.vscode": true,
-    "**/.gitpod.*": true,
+    "**/.gitpod.yml": true,
+    "**/.gitpod.Dockerfile": true,
     "**/.git": true,
+    "**/.gitignore": true,
     "**/.tm": true
   }
 }
