@@ -1,2 +1,4 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
   - before: source /workspace/esercitazioni/.bin/setcp
