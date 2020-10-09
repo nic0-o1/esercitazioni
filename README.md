@@ -21,6 +21,8 @@ Code](https://code.visualstudio.com/) e
 dell'[OpenJDK](https://openjdk.java.net/) offerti gratuitamente come servizio
 cloud e già configurati per lo svolgimento delle esercitazioni.
 
+### Uso del workspace
+
 Il *workspace* creato è persistente e personalizzato, potete trovare maggiori
 informazioni nella [documentazione di Gitpod](https://www.gitpod.io/docs/); chi
 è dotato di un account GitHub può usarlo per accedere anche a Gitpod in modo,
@@ -34,6 +36,17 @@ esercitazione aprendo un terminale nel *workspace* e impartendo il comando
 
 dove `<NOME_ESERCITAZIONE>` è il nome dell'esercitazione che verrà comunicato
 dal docente e `<MATRICOLA>` è il numero di matricola dello studente.
+
+**Attenzione**: *non è possibile usare due workspace diversi per la medesima
+esercitazione*, per cui per proseguire una esercitazione interrotta controllate
+prima nell'[elenco dei suoi workspace](https://gitpod.io/workspaces/) e, nel
+caso, riavviate il *workspace* esistente. Se una volta riavviato il workspace i
+comandi `svolgi`, `verifica` o `consegna` non risultassero disponibili, è
+sufficiente che impartisca il seguente comando (dal terminale):
+
+    source /workspace/esercitazioni/.bin/setcp
+
+### Il cruscotto
 
 Le esercitazioni vengono sottoposte a *continuous testing* (basato su [Scythe
 Suite](https://github.com/scythe-suite)); ciascuno studente può tenere traccia
