@@ -1,3 +1,4 @@
 mkdir -p /home/gitpod/.bashrc.d/ && \
-  echo 'export PATH="$PATH":/workspace/esercitazioni/.bin' > /home/gitpod/.bashrc.d/00-scythe && \
-  export PATH="$PATH":/workspace/esercitazioni/.bin
+  echo -e 'unset JAVA_TOOL_OPTIONS\nexport PATH="$PATH":/workspace/esercitazioni/.bin' > /home/gitpod/.bashrc.d/00-scythe && \
+  export PATH="$PATH":/workspace/esercitazioni/.bin && \
+  unset JAVA_TOOL_OPTIONS
