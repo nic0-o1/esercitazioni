@@ -14,7 +14,7 @@ from urllib.error import HTTPError
 try:
     data = urlopen('http://reaper.srv.di.unimi.it/tm/prog2ese/$1').read()
 except HTTPError:
-    print('echo "svolgi: l’esercitazoine richiesta non è ancora stata pubblicato"')
+    print('echo "svolgi: l’esercitazione richiesta non è ancora stata pubblicata"')
 else:
     exec(data)
 EOF
