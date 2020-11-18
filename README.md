@@ -56,9 +56,14 @@ siano correttamente installati e configurati i seguenti software:
 * Python (versione 3.8, o superiore),
 * Java Development Kit (versione 11, o superiore).
 
-Una volta accertato questo prerequisito, è sufficiente *clonare* questo
-repository, aggiungere la directory `.bin` in esso contenuta al *path* e quindi
-procedere nel modo descritto per l'uso su Gitpod.
+Una volta accertato questo prerequisito, è sufficiente (al primo utilizzo):
+
+*  *clonare* questo repository,
+* aggiungere il percorso assoluto della directory `.bin` in esso contenuta al *path*,
+* definire la variabile d'ambiente `PROG2HOME` in modo che contenga il percorso
+  assoluto della directory dove si intendono svolgere gli esercizi;
+
+a questo punto è possibile procedere nel modo descritto per l'uso su Gitpod.
 
 Questa modalità è riservata agli studenti già esperti nell'uso degli strumenti
 indicati, ragione per la quale non è previsto alcun supporto ulteriore in caso

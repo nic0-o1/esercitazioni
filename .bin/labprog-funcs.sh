@@ -12,7 +12,7 @@ up_tm() {
         chmod u+x "$cur/.tm"
         "$cur/.tm" "$@"
     else
-        echo "${0##*/}: errore: posizionarsi in una sottodirectory di '/workspace/esercitazioni'..." 2>&1
+        echo "${0##*/}: errore: posizionarsi nella directory di una delle esercitazioni..." 2>&1
         return
     fi
 }

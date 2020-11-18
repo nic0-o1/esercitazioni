@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 eval $(
-HOME="/workspace/esercitazioni/$(echo $1 | cut -d/ -f1)"
+HOME="${PROG2HOME:-/workspace/esercitazioni}/$(echo $1 | cut -d/ -f1)"
 cat <<EOF | python3 2>&1
 # -*- coding: utf-8 -*-
 from urllib.request import urlopen

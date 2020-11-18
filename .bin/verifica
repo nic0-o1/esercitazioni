@@ -1,3 +1,3 @@
 #!/bin/bash
 
-LC_ALL=it_IT.UTF-8 /workspace/esercitazioni/.bin/sf test -vf "$@"
+LC_ALL=it_IT.UTF-8 sf test -vf "$@"
