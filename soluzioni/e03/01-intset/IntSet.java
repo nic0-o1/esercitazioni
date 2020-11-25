@@ -1,6 +1,6 @@
 /*
 
-Copyright 2020 Luca Prigioniero
+Copyright 2020 Luca Prigioniero, Massimo Santini
 
 This file is part of "Programmazione 2 @ UniMI" teaching material.
 
@@ -22,33 +22,35 @@ along with this file.  If not, see <https://www.gnu.org/licenses/>.
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * OVERVIEW: Le istanze di questa classe rappresentano insiemi (non limitati) di interi. Gli oggetti
- * di questo tipo sono mutabili.
+/*-
+ * OVERVIEW: Le istanze di questa classe rappresentano insiemi (non limitati) di interi.
+ *           Gli oggetti di questo tipo sono mutabili.
  */
 public class IntSet {
   // Campi
-  /** La struttura dati contenente gli elementi dell'IntSet this. */
+  /*- La struttura dati contenente gli elementi dell'IntSet this. */
   private List<Integer> elements;
 
   // Costruttori
-  /** Post-condizioni: Inizializza this affinché rappresenti l'insieme vuoto. */
+  /*-
+   * Post-condizioni: Inizializza this affinché rappresenti l'insieme vuoto.
+   */
   public IntSet() {
     elements = new ArrayList<>();
   }
 
   // Metodi
-  /**
-   * Effetti collaterali: this è modificato: this_post = this + {x}. Post-condizioni: Aggiunge
-   * l'elemento x all'insieme this.
+  /*-
+   * Effetti collaterali: this è modificato: this_post = this + {x}.
+   * Post-condizioni: Aggiunge l'elemento x all'insieme this.
    */
   public void insert(int x) {
     if (!this.contains(x)) elements.add(x);
   }
 
-  /**
-   * Effetti collaterali: this è modificato: this_post = this - {x}. Post-condizioni: Rimuove
-   * l'elemento x dall'insieme this, se presente.
+  /*-
+   * Effetti collaterali: this è modificato: this_post = this - {x}.
+   * Post-condizioni: Rimuove l'elemento x dall'insieme this, se presente.
    */
   public void remove(int x) {
     // elements.remove(Integer.valueOf(x));
@@ -60,19 +62,23 @@ public class IntSet {
     }
   }
 
-  /** Post-condizioni: restituisce true se x è nell'insieme this, altrimenti restituisce false. */
+  /*-
+   * Post-condizioni: restituisce true se x è nell'insieme this, altrimenti restituisce false.
+   */
   public boolean contains(int x) {
     return elements.contains(x);
   }
 
-  /** Post-condizioni: restituisce la cardinalità dell'insieme this. */
+  /*-
+   * Post-condizioni: restituisce la cardinalità dell'insieme this.
+   */
   public int size() {
     return elements.size();
   }
 
-  /**
-   * Post-condizioni: restituisce un elemento scelto arbitrariamente nell'insieme e solleva
-   * un'eccezione di tipo EmptyException se l'insieme è vuoto
+  /*-
+   * Post-condizioni: restituisce un elemento scelto arbitrariamente nell'insieme
+   * 				   e solleva un'eccezione di tipo EmptyException se l'insieme è vuoto
    */
   public int choose() throws EmptyException {
     if (this.size() == 0)
@@ -80,7 +86,9 @@ public class IntSet {
     return elements.get(elements.size() - 1);
   }
 
-  /** Post-condizioni: restituisce una rappresentazione testuale dell'insieme this. */
+  /*-
+   * Post-condizioni: restituisce una rappresentazione testuale dell'insieme this.
+   */
   @Override
   public String toString() {
     String r = "Intset : {";

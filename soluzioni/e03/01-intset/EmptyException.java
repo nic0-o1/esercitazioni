@@ -1,6 +1,6 @@
 /*
 
-Copyright 2020 Luca Prigioniero
+Copyright 2020 Luca Prigioniero, Massimo Santini
 
 This file is part of "Programmazione 2 @ UniMI" teaching material.
 
@@ -19,6 +19,9 @@ along with this file.  If not, see <https://www.gnu.org/licenses/>.
 
 */
 
+/*-
+ * EmptyException
+ */
 @SuppressWarnings("serial")
 public class EmptyException extends RuntimeException {
   public EmptyException() {

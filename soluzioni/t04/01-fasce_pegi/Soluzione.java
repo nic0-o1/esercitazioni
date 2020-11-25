@@ -1,6 +1,6 @@
 /*
 
-Copyright 2020 Massimo Santini
+Copyright 2020 Luca Prigioniero, Massimo Santini
 
 This file is part of "Programmazione 2 @ UniMI" teaching material.
 
@@ -19,25 +19,16 @@ along with this file.  If not, see <https://www.gnu.org/licenses/>.
 
 */
 
-package no;
-
 import java.util.Scanner;
 
 public class Soluzione {
-
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     int eta = s.nextInt();
-    s.close();
-
-    int fascia;
-
-    if (eta < 7) fascia = 3;
-    else if (eta < 12) fascia = 7;
-    else if (eta < 16) fascia = 12;
-    else if (eta < 18) fascia = 16;
-    else fascia = 18;
-
-    System.out.println("fascia " + fascia);
+    if (eta < 7) System.out.println("fascia 3");
+    else if (eta < 12) System.out.println("fascia 7");
+    else if (eta < 16) System.out.println("fascia 12");
+    else if (eta < 18) System.out.println("fascia 16");
+    else System.out.println("fascia 18");
   }
 }
