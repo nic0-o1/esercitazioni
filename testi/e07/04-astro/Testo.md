@@ -19,13 +19,13 @@ metodi (con particolare riferimento a *pre-*/*post-condizioni* ed *effetti
 collaterali*).
 
 Un **corpo celeste** è caratterizzato da un *nome* e da una *posizione*,
-descritta da un **punto tridimensionale** a coordinate intere. Assumeremo per
+descritta da un **punto tridimensionale** a coordinate intere (la cui *norma* è definita come la somma dei valori assoluti delle sue coordinate). Assumeremo per
 semplicità che ci siano solo due tipi di corpi celesti: le **stelle fisse** e i
 **pianeti**. Le stelle non cambiano mai la loro posizione, a differenza dei
 pianeti. Per questo, oltre che dalla posizione, sono caratterizzati dalla loro
 *velocità*, descritta anch'essa da un punto tridimensionale. Ciascun corpo
 celeste ha una *energia* data dal prodotto dell'*energia potenziale*,
-corrispondente alla norma della sua posizione, per l'*energia cinetica*,
+corrispondente alla norma della sua posizione (secondo la definizione di norma di punto tridimensionale data sopra), per l'*energia cinetica*,
 corrispondente dalla norma della sua velocità (ovviamente tale energia è nulla
 nel caso delle stelle fisse).
 
