@@ -21,9 +21,9 @@ rappresentazione testuale delle scomposizioni degli interi tra 2 e 13
     12 => [2, 2, 3]
     13 => [13]
 
-Scrivete un programma che, dato un numero come parametro sulla linea di comando,
-emetta nel flusso di uscita la sequenza di scomposizioni, fino al numero dato
-(compreso).
+in cui è stato sempre omesso il fattore 1. Scrivete un programma che, dato un
+numero come parametro sulla linea di comando, emetta nel flusso di uscita la
+sequenza di scomposizioni, fino al numero dato (compreso).
 
 
 Vincoli
@@ -60,3 +60,18 @@ programma emette
     20 => [2, 2, 5]
 
 nel flusso d'uscita.
+
+Suggerimenti
+------------
+
+Onde ridurre il numero di divisioni da effettuare per risolvere questo problema è
+possibile memorizzare le scomposizioni in una lista, l'elemento `n`-esimo della
+quale corrisponda alla lista di fattori primi di `n`.
+
+Per popolare la lista delle scomposizioni è sufficiente osservare che,
+procedendo in ordine crescente, il suo elemento `n`-esimo può essere ottenuto:
+
+* determinando il più piccolo intero 1 < `d` < `n` che divide `n`, quindi
+* costruendo una lista di fattori contenente `d` seguita dalla scomposizione di
+  `n / d` (che sarà stata calcolata in precedenza, dato che `n / d` < `n` ed è
+  ovviamente intero).
