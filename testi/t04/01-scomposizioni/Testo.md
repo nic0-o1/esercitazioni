@@ -75,3 +75,6 @@ procedendo in ordine crescente, il suo elemento `n`-esimo può essere ottenuto:
 * costruendo una lista di fattori contenente `d` seguita dalla scomposizione di
   `n / d` (che sarà stata calcolata in precedenza, dato che `n / d` < `n` ed è
   ovviamente intero).
+
+  Osservate che potrebbe essere d'aiuto anche memorizzare una lista dei numeri
+  primi man mano individuati.
