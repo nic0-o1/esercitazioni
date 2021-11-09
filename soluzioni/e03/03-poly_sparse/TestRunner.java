@@ -19,7 +19,6 @@ along with this file.  If not, see <https://www.gnu.org/licenses/>.
 
 */
 
-
 import java.util.Scanner;
 
 public class TestRunner {
