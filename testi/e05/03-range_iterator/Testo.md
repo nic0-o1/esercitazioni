@@ -10,7 +10,7 @@ $δ < 0$; il range è vuoto se $r_0$ non soddisfa le disuguaglianze precedenti.
 Ad esempio il range determinato da $(5, 12, 2)$ è $[5, 7, 9, 11]$ mentre quello
 determinato da $(-3, -6, -1)$ è $[-3, -4, -5]$.
 
-Implementate un interatore sugli interi che, dati i tre parametri $(a, b, δ)$, iteri sugli elementi $r_i$ del *range*.
+Implementate un iteratore sugli interi che, dati i tre parametri $(a, b, δ)$, iteri sugli elementi $r_i$ del *range*.
 
 Per portare a termine il lavoro dovrà decidere quali classi (eventualmente
 interne) implementare e per tali classi **dovrà descrivere** le scelte relative
