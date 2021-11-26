@@ -67,7 +67,7 @@ public class IntQueue {
   /*-
    * Effetti collaterali: this è modificato se la coda non è piena
    * Post-condizioni: Aggiunge l'elemento x alla coda this
-   *				          e solleva un'eccezione di tipo FullException se la coda è piena
+   *                  e solleva un'eccezione di tipo FullException se la coda è piena
    *                  this_post = this + [x]
    */
   public void enqueue(int x) {
