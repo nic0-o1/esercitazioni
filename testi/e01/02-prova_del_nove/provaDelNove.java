@@ -10,7 +10,7 @@ public class provaDelNove {
 		}
 
 	}
-		//testing
+	
 	private static void GenearaProve(int num) {
 		for (int i = 0; i < num; i++) { // A
 			for (int j = 0; j < num; j++) { // B

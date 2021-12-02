@@ -11,5 +11,6 @@
   "java.project.sourcePaths": [
     ".",
     "testi\\e05\\03-range_iterator"
-  ]
+  ],
+  "java.dependency.packagePresentation": "hierarchical"
 }
