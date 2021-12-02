@@ -7,5 +7,9 @@
     "**/.git": true,
     "**/.gitignore": true,
     "**/.tm": true
-  }
+  },
+  "java.project.sourcePaths": [
+    ".",
+    "testi\\e05\\03-range_iterator"
+  ]
 }
