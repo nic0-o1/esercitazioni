@@ -85,7 +85,7 @@ public class RationalNumber {
 		if(!(obj instanceof RationalNumber)) return false;
 
 		RationalNumber o = (RationalNumber) obj;
-		return this.num == o.num && this.den == o.den;
+		return this.num == o.Num() && this.den == o.Den();
 	}
 
 	@Override
