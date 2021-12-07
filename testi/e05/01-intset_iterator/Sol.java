@@ -1,4 +1,3 @@
-
 public class Sol {
 	public static void main(String[] args) {
 		IntSet intS = new IntSet();
@@ -7,7 +6,7 @@ public class Sol {
 			intS.Insert(i);
 		}
 
-		for (Integer val : set) {
+		for (Integer val : intS) {
 			System.out.println(val);
 		}
 	}

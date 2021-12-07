@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class RangeIterator {
+public class RangeIterator implements Iterable<Integer> {
 	//Attributi
 	private int end; 
 	private int next;
